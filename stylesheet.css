@@ -23,9 +23,10 @@ header{
     padding: 20px 40px;
 }
 .logo{
-    width: 300px;
-    height: 40px;
+    width: 150px;
+    height: 30px;
     box-shadow: 0px 0px 10px  #980026;
+    margin: 10px;
 }
 .main{
     background-color: #980026;
@@ -60,32 +61,39 @@ h1:hover{
     background-size: cover;
     transition: transform 0.5s; 
 }
+
 .top-wrapper:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px #980026;
     cursor: pointer;
 }
+
 .about-me{
     position: absolute;
 }
+
 .about-me img{
     width: 300px;
     height: 50px;
 }
+
 .about-me h3{
     position: absolute;
     top: 0px;
     padding-left: 5px ;
     width: 100%;
 }
+
 .about-me p{
     padding:2px;
     font-size: 20px;
 }
+
 .text-about{
     padding:2px;
     font-size: 15px
 }
+
 .biografi{              /*------------ kanan*-----------------*/
     margin-right: 30px;
     float: right;
@@ -97,43 +105,52 @@ h1:hover{
     transition: transform 0.5s; 
     margin-bottom: 50px;
 }
+
 .biografi:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px #980026;
     cursor: pointer;
 }
+
 .biografi-icon{
     position: relative;
 }
+
 .biografi-icon h3{
     position: absolute;
     top: 0px;
     padding-left: 5px ;
     width: 100%;
 }
+
 .biografi-icon img{
     width: 300px;
     height: 50px;
     margin-bottom: 20px;
 }
+
 /* gambaaar terbang*/
 .terbang-1{
     float: right;
     margin-top: 20px;
     margin-left: 80px;
 }
+
 .gambar-satu{
     opacity: 0.8;
     width: 280px;
     height: 300px;
 }
+
 .gambar-satu:hover{
     opacity: 1;
     cursor: pointer;  
 }
+
 .terbang-1{
     float: left;
 }
+
 .gambar-dua{
     float: left;
     opacity: 0.8;
@@ -141,6 +158,7 @@ h1:hover{
     width: 280px;
     height: 300px;
 }
+
 .gambar-dua:hover{
     opacity: 1;
     cursor: pointer;  
@@ -159,18 +177,21 @@ h1:hover{
 .pendidikan-icon{
     position: relative;
 }
+
 .formal{
     text-align: left;
     margin: 0 auto;
     padding: 2px 10px;
     background-color: #980026;
 }
+
 .informal{
     text-align: left;
     margin: 0 auto;
     padding: 2px 10px;
     background-color: #980026;
 }
+
 .pendidikan-icon h3{
     position: absolute;
     top: 0px;
@@ -178,6 +199,7 @@ h1:hover{
     width: 100%;
     text-align: center;
 }
+
 .pendidikan-icon img{
     text-align: center;
     width: 400px;
@@ -194,6 +216,7 @@ h1:hover{
     height: 250px;
     width: 250px;
 }
+
 .lesson-icon {
     margin-top: 20px;
     position: relative;
@@ -201,23 +224,28 @@ h1:hover{
     text-align: center;
     opacity: 0.8;
 }
+
 .lesson-icon:hover {
     opacity: 1;
     box-shadow: 0 0 7px white;
     cursor: pointer;
 }
+
  .lesson-icon p {
     color: white;
     background-color: #980026;
     padding: 15px;
 }
+
 .lesson img{
     height: 150px;
 }
+
 .img-sd{
     width: 200px;
     height: 80px; 
 }
+
 .lesson-icon h4{
     color:  #980026;
     padding-bottom: 20px;
@@ -231,36 +259,43 @@ h1:hover{
     width: 250px;
     
 }
+
 .sertifikat-icon {
     margin-top: 20px;
     position: relative;
     text-align: center;
     opacity: 0.8;
 }
+
 .sertifikat-icon:hover {
     opacity: 1;
     box-shadow: 0 0 7px white;
     background-color: #980026;
     cursor: pointer;
 }
+
  .sertifikat-icon p {
     color: white;
     font-weight: bold;
     padding: 15px;
     font-size: 13px;
 }
+
 .img-sert{
     height: 150px;
     transition: transform 0.5s; 
 }
+
 .img-sert:hover{
     transform: scale(1.5);
     opacity: 1;
 }
+
 .img-sert-dua{
     height: 200px;
     transition: transform 0.5s; 
 }
+
 .img-sert-dua:hover{
     transform: scale(1.5);
     opacity: 1;
@@ -271,8 +306,10 @@ h1:hover{
     padding-bottom: 0px;
     font-size: 14px;
 }
+
 .keterangan{
     color: white;
     font-size: 12px;
     padding-bottom: 10px;
 }
+
