@@ -257,7 +257,14 @@ h1:hover{
     transform: scale(1.5);
     opacity: 1;
 }
-
+.img-sert-dua{
+    height: 150px;
+    transition: transform 0.5s; 
+}
+.img-sert-dua:hover{
+    transform: scale(2.1);
+    opacity: 1;
+}
 .text-sert{
     color:  aqua;
     padding-bottom: 0px;
