@@ -114,12 +114,11 @@
 
 /*---------------------Media untuk Smarthphone*-------------------*/
 @media all and (max-width: 400px) {
-        header{
-        height: 5%;
-        padding: 2% 20px;
+    header{
+        padding: 1% 20px;
     }
     .main{
-        padding: 0px 2px;
+        padding:0 2px;
         height: 100%;
     }
     .main h1{
