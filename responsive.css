@@ -120,7 +120,7 @@
     }
     .main{
         padding:0 2px;
-        height: 229px;
+        height: 100%;
     }
     .main h1{
         font-size: 15px;
