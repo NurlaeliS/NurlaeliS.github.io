@@ -113,7 +113,7 @@
 
 
 /*---------------------Media untuk Smarthphone*-------------------*/
-@media all and (max-width: 400px) {
+@media all and (min-width: 400px) {
     header{
         padding: 1% 20px;
     }
@@ -177,13 +177,16 @@
     .gambar-satu{
         display: none;
     }
-    .gambar-dua{
+     .gambar-dua{
         height: 80px;
         width: 80px;
         position: relative;
         bottom: 130px;
-        right: 45px;
-
+        right: 15%;
+        transition: 0.5s;
+    }
+    .gambar-dua:hover{
+        right: 0%;
     }
     .biografi{
         display: block;
