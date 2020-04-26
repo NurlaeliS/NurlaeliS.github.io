@@ -17,16 +17,14 @@ header{
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
     position: fixed;
-    top: 0;
     z-index:10;
     box-shadow: 0px 0px 10px black;
-    padding: 20px 40px;
+    padding: 20px
 }
 .logo{
-    width: 150px;
-    height: 30px;
+    width: 20%;
+    height: 10%;
     box-shadow: 0px 0px 10px  #980026;
-    margin: 10px;
 }
 .main{
     background-color: #980026;
@@ -43,114 +41,95 @@ header{
       width: 350px;
 }
 h1{
-    padding: 100px 100px ;
+    padding: 0 3%;
     font-weight: normal;
     text-align: right;
     color: white;
   }
 h1:hover{
-    text-shadow: 2px 2px 6px #23a7f1;
+    text-shadow: 0px 0px 6px #23a7f1;
 }
 .top-wrapper{           /*----------------- kiri------------------*/
-    margin: 30px 0 20px 20px; 
+    margin : 3% 3%;
     float: left;
     width: 65%;
-    padding: 20px 0 300px 30px;
-    margin-bottom: 50px;
+    padding: 20px 0 100px 50px;
     box-shadow: 0 0 10px black;
     background-size: cover;
-    transition: transform 0.5s; 
+    text-align: left;
+    transition: transform 0.5s;
 }
-
 .top-wrapper:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px #980026;
     cursor: pointer;
 }
 
+.top-wrapper p{
+    padding-top: 7%;
+}
+
 .about-me{
     position: absolute;
 }
-
 .about-me img{
     width: 300px;
     height: 50px;
 }
-
 .about-me h3{
     position: absolute;
     top: 0px;
-    padding-left: 5px ;
+    padding-left: 5px;
     width: 100%;
-}
-
-.about-me p{
-    padding:2px;
-    font-size: 20px;
-}
-
-.text-about{
-    padding:2px;
-    font-size: 15px
 }
 
 .biografi{              /*------------ kanan*-----------------*/
     margin-right: 30px;
     float: right;
     width: 65%;
-    padding: 20px 0 100px 20px;
+    padding: 20px 0 100px 50px;
     box-shadow: 0 0 10px black;
     background-size: cover;
     text-align: left;
     transition: transform 0.5s; 
-    margin-bottom: 50px;
 }
-
 .biografi:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px #980026;
     cursor: pointer;
 }
-
 .biografi-icon{
     position: relative;
 }
-
 .biografi-icon h3{
     position: absolute;
     top: 0px;
     padding-left: 5px ;
     width: 100%;
 }
-
 .biografi-icon img{
     width: 300px;
     height: 50px;
     margin-bottom: 20px;
 }
-
 /* gambaaar terbang*/
 .terbang-1{
     float: right;
-    margin-top: 20px;
+    margin-top: 3%;
     margin-left: 80px;
 }
-
 .gambar-satu{
     opacity: 0.8;
     width: 280px;
     height: 300px;
 }
-
 .gambar-satu:hover{
     opacity: 1;
     cursor: pointer;  
 }
-
 .terbang-1{
     float: left;
 }
-
 .gambar-dua{
     float: left;
     opacity: 0.8;
@@ -158,7 +137,6 @@ h1:hover{
     width: 280px;
     height: 300px;
 }
-
 .gambar-dua:hover{
     opacity: 1;
     cursor: pointer;  
@@ -167,29 +145,15 @@ h1:hover{
 .pendidikan{
     float: right;
     width: 90%;
-    height: 900px;
+    height: 100%;
     padding: 30px 30px;
-    margin: 20px 5%;
+    margin: 1% 5%;
     box-shadow: 0 0 20px black;
     text-align: center;
 }
 
 .pendidikan-icon{
     position: relative;
-}
-
-.formal{
-    text-align: left;
-    margin: 0 auto;
-    padding: 2px 10px;
-    background-color: #980026;
-}
-
-.informal{
-    text-align: left;
-    margin: 0 auto;
-    padding: 2px 10px;
-    background-color: #980026;
 }
 
 .pendidikan-icon h3{
@@ -199,7 +163,6 @@ h1:hover{
     width: 100%;
     text-align: center;
 }
-
 .pendidikan-icon img{
     text-align: center;
     width: 400px;
@@ -207,16 +170,23 @@ h1:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
+.formal h3, .informal h3{
+    text-align: left;
+    margin-top: 3%;
+    background-color:  #980026;
+    padding: 0.5vh;
+}
 /* -----------------Logo pendidikan-------------*/
-/*------------------Formal------------------*/
+
+
 .lesson {
     display: inline-block;
-    margin: 0 0 65px 30px;
-    padding-left: 20px;
-    height: 250px;
-    width: 250px;
+    margin: 0 0;
+    padding: 0 15px ;
+    height: 25%;
+    width: 20%;
 }
-
 .lesson-icon {
     margin-top: 20px;
     position: relative;
@@ -224,39 +194,37 @@ h1:hover{
     text-align: center;
     opacity: 0.8;
 }
-
 .lesson-icon:hover {
     opacity: 1;
     box-shadow: 0 0 7px white;
     cursor: pointer;
 }
-
  .lesson-icon p {
     color: white;
     background-color: #980026;
     padding: 15px;
 }
-
 .lesson img{
     height: 150px;
 }
+
 
 .img-sd{
     width: 200px;
     height: 80px; 
 }
-
 .lesson-icon h4{
     color:  #980026;
     padding-bottom: 20px;
 }
-/*------------------IN-------Formal------------------*/
+/*------------SERTIFIKAT--------------------*/
+
+
 .sertifikat {
     display: inline-block;
-    margin: 0 0 65px 30px;
-    padding-left: 20px;
-    height: 300px;
-    width: 250px;
+    margin: 0 2%;
+    height: 10%;
+    width: 20%;
     
 }
 
@@ -281,22 +249,22 @@ h1:hover{
     font-size: 13px;
 }
 
-.img-sert{
+.img-landscape{
     height: 150px;
     transition: transform 0.5s; 
 }
 
-.img-sert:hover{
+.img-landscape:hover{
     transform: scale(1.5);
     opacity: 1;
 }
 
-.img-sert-dua{
+.img-potrait{
     height: 200px;
     transition: transform 0.5s; 
 }
 
-.img-sert-dua:hover{
+.img-potrait:hover{
     transform: scale(1.5);
     opacity: 1;
 }
@@ -312,5 +280,6 @@ h1:hover{
     font-size: 12px;
     padding-bottom: 10px;
 }
+
 
 
