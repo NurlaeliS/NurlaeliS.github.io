@@ -201,13 +201,13 @@
     }
 
     .ttl{
-        width: 0px;
+        width: 10px;
     }
     /*----------------Pendidikan---------------------*/
     .pendidikan{
         position: relative;
         bottom: 150px;
-        height:720px;
+        height: 100%;
     }
     .pendidikan h3{
         font-size:10px;
