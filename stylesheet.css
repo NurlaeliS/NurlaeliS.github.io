@@ -1,285 +1,60 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #282c34;
-    color: white;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-header{
-    height: 80px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    position: fixed;
-    z-index:10;
-    box-shadow: 0px 0px 10px black;
-    padding: 20px
-}
-.logo{
-    width: 20%;
-    height: 10%;
-    box-shadow: 0px 0px 10px  #980026;
-}
-.main{
-    background-color: #980026;
-    float: right;
-    width: 100%;
-    padding: 80px 0 0 100px;
-    box-shadow: 0 0 20px black;
-    margin-left: 50px;
-    display: block;
-  }
-.main img{
-      float: left;
-      height: 300px;
-      width: 350px;
-}
-h1{
-    padding: 0 3%;
-    font-weight: normal;
-    text-align: right;
-    color: white;
-  }
-h1:hover{
-    text-shadow: 0px 0px 6px #23a7f1;
-}
-.top-wrapper{           /*----------------- kiri------------------*/
-    margin : 3% 3%;
-    float: left;
-    width: 65%;
-    padding: 20px 0 100px 50px;
-    box-shadow: 0 0 10px black;
-    background-size: cover;
-    text-align: left;
-    transition: transform 0.5s;
-}
-.top-wrapper:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #980026;
-    cursor: pointer;
+body {
+  font-family: "Avenir Next";
 }
 
-.top-wrapper p{
-    padding-top: 7%;
+li {
+  list-style: none;
 }
 
-.about-me{
-    position: absolute;
-}
-.about-me img{
-    width: 300px;
-    height: 50px;
-}
-.about-me h3{
-    position: absolute;
-    top: 0px;
-    padding-left: 5px;
-    width: 100%;
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
 }
 
-.biografi{              /*------------ kanan*-----------------*/
-    margin-right: 30px;
-    float: right;
-    width: 65%;
-    padding: 20px 0 100px 50px;
-    box-shadow: 0 0 10px black;
-    background-size: cover;
-    text-align: left;
-    transition: transform 0.5s; 
-}
-.biografi:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #980026;
-    cursor: pointer;
-}
-.biografi-icon{
-    position: relative;
-}
-.biografi-icon h3{
-    position: absolute;
-    top: 0px;
-    padding-left: 5px ;
-    width: 100%;
-}
-.biografi-icon img{
-    width: 300px;
-    height: 50px;
-    margin-bottom: 20px;
-}
-/* gambaaar terbang*/
-.terbang-1{
-    float: right;
-    margin-top: 3%;
-    margin-left: 80px;
-}
-.gambar-satu{
-    opacity: 0.8;
-    width: 280px;
-    height: 300px;
-}
-.gambar-satu:hover{
-    opacity: 1;
-    cursor: pointer;  
-}
-.terbang-1{
-    float: left;
-}
-.gambar-dua{
-    float: left;
-    opacity: 0.8;
-    margin-left: 80px;
-    width: 280px;
-    height: 300px;
-}
-.gambar-dua:hover{
-    opacity: 1;
-    cursor: pointer;  
-}
-/*---------------PENDIDIKAN---------------*/
-.pendidikan{
-    float: right;
-    width: 90%;
-    height: 100%;
-    padding: 30px 30px;
-    margin: 1% 5%;
-    box-shadow: 0 0 20px black;
-    text-align: center;
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
 }
 
-.pendidikan-icon{
-    position: relative;
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
-.pendidikan-icon h3{
-    position: absolute;
-    top: 0px;
-    padding-left: 5px ;
-    width: 100%;
-    text-align: center;
-}
-.pendidikan-icon img{
-    text-align: center;
-    width: 400px;
-    height: 60px;
-    margin-left: auto;
-    margin-right: auto;
+.main {
+  padding: 100px 80px;
 }
 
-.formal h3, .informal h3{
-    text-align: left;
-    margin-top: 3%;
-    background-color:  #980026;
-    padding: 0.5vh;
-}
-/* -----------------Logo pendidikan-------------*/
-
-
-.lesson {
-    display: inline-block;
-    margin: 0 0;
-    padding: 0 15px ;
-    height: 25%;
-    width: 20%;
-}
-.lesson-icon {
-    margin-top: 20px;
-    position: relative;
-    background-color:  white;
-    text-align: center;
-    opacity: 0.8;
-}
-.lesson-icon:hover {
-    opacity: 1;
-    box-shadow: 0 0 7px white;
-    cursor: pointer;
-}
- .lesson-icon p {
-    color: white;
-    background-color: #980026;
-    padding: 15px;
-}
-.lesson img{
-    height: 150px;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-
-.img-sd{
-    width: 200px;
-    height: 80px; 
-}
-.lesson-icon h4{
-    color:  #980026;
-    padding-bottom: 20px;
-}
-/*------------SERTIFIKAT--------------------*/
-
-
-.sertifikat {
-    display: inline-block;
-    margin: 0 2%;
-    height: 10%;
-    width: 20%;
-    
+.copy-container h2 {
+  font-size: 60px;
 }
 
-.sertifikat-icon {
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
-    opacity: 0.8;
+.copy-container span {
+  color: #ff4a4a;
 }
 
-.sertifikat-icon:hover {
-    opacity: 1;
-    box-shadow: 0 0 7px white;
-    background-color: #980026;
-    cursor: pointer;
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
 }
 
- .sertifikat-icon p {
-    color: white;
-    font-weight: bold;
-    padding: 15px;
-    font-size: 13px;
+.footer-logo {
+  float: left;
+  font-size: 32px;
 }
 
-.img-landscape{
-    height: 150px;
-    transition: transform 0.5s; 
+.footer-list {
+  float: right;
 }
 
-.img-landscape:hover{
-    transform: scale(1.5);
-    opacity: 1;
+.footer-list li {
+  padding-bottom: 20px;
 }
-
-.img-potrait{
-    height: 200px;
-    transition: transform 0.5s; 
-}
-
-.img-potrait:hover{
-    transform: scale(1.5);
-    opacity: 1;
-}
-
-.text-sert{
-    color:  aqua;
-    padding-bottom: 0px;
-    font-size: 14px;
-}
-
-.keterangan{
-    color: white;
-    font-size: 12px;
-    padding-bottom: 10px;
-}
-
-
-
