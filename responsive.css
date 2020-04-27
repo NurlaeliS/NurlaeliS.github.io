@@ -58,12 +58,12 @@
         width: 20%;
         height: 30%;
         position: relative;
-        bottom: 250px;
-        right: 30px;
+        bottom: 300px;
+        right: 0px;
     }
     .biografi{
         position: relative;
-        bottom: 350px;
+        bottom: 380px;
     }
     .biografi img{
         width: 200px;
@@ -100,7 +100,7 @@
 
     .pendidikan{
         position:relative;
-        bottom: 340px;
+        bottom: 350px;
         height:100%;
         padding: 5% 5%;
     }
