@@ -229,11 +229,6 @@
     }
 
 
-    i{
-        font-size: 9px;
-    }
-    
-
     .terbang-1{
         float:right;
         margin-top: 1px;    
@@ -253,13 +248,12 @@
         right: 0%;
     }
     .biografi{
-        display: block;
         padding: 1px 10px;           /*----------------- kanan------------------*/
         width: 70%;
         box-shadow: 0 0;
         position:relative;
-        left: 10%;
         bottom: 80px;
+        margin-right: 0px;
     }
     table{
         font-size: 9px;
