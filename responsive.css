@@ -21,7 +21,7 @@
     }
     .menu a{
        position: relative;
-       left: 200px;'
+       left: 200px;
     }
     .top-wrapper , .biografi {
         margin-top: 70px;
@@ -37,11 +37,11 @@
 
     .top-wrapper p{
         font-family: font-deskripsi;
-        font-size: 20pt;
+        font-size: 9pt;
     }
     
     .deskripsi{
-        font-size: 15pt;
+        font-size: 9pt;
     }
     .terbang-1{
         float: right;
@@ -50,8 +50,8 @@
         width: 40%;
         height: 30%;
         position: relative;
-        bottom: 400px;
-        left: 40%;
+        bottom: 320px;
+        left: 48%;
 
     }
     .gambar-dua{
@@ -201,6 +201,8 @@
     }
 
     .top-wrapper{           /*----------------- kiri------------------*/
+    
+    margin-top: 14%;
     padding: 1px 20px;
     width: 90%;
     box-shadow: 0 0 0 ;  
@@ -210,11 +212,11 @@
     }
     .top-wrapper p{
         font-family: font-deskripsi;
-        font-size: 15pt;
+        font-size: 9pt;
     }
     
     .deskripsi{
-        font-size: 15pt;
+        font-size: 9pt;
         text-align: justify;
     }
     .about-me img, .biografi-icon img {
@@ -243,7 +245,7 @@
         height: 80px;
         width: 80px;
         position: relative;
-        bottom: 140px;
+        bottom: 0px;
         left: 2%;
         transition: 0.5s;
     }
@@ -257,7 +259,7 @@
         box-shadow: 0 0;
         position:relative;
         left: 10%;
-        bottom: 50px;
+        bottom: 80px;
     }
     table{
         font-size: 9px;
@@ -269,7 +271,7 @@
     /*----------------Pendidikan---------------------*/
     .pendidikan{
         position: relative;
-        bottom: 140px;
+        bottom: 100px;
         height: 0px;
         box-shadow: 0 0;
     }
