@@ -210,11 +210,11 @@
     }
     .top-wrapper p{
         font-family: font-deskripsi;
-        font-size: 20pt;
+        font-size: 12pt;
     }
     
     .deskripsi{
-        font-size: 15pt;
+        font-size: 10pt;
         text-align: justify;
     }
     .about-me img, .biografi-icon img {
