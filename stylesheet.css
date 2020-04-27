@@ -27,6 +27,14 @@ header{
     font-family: font-nama;
     src: url(CreamCake.ttf);
   }
+  @font-face {
+    font-family: font-deskripsi;
+    src: url(font/NalikaSignature.ttf);
+  }
+  @font-face {
+    font-family: font-p;
+    src: url(font/Bittermilk.ttf);
+  }  
 
 .logo{
     width: 20%;
@@ -94,7 +102,7 @@ h1:hover{
     margin : 5% 3%;
     float: left;
     width: 65%;
-    padding: 20px 0 100px 50px;
+    padding: 20px 30px;
     box-shadow: 0 0 10px black;
     background-size: cover;
     text-align: left;
@@ -108,11 +116,21 @@ h1:hover{
 
 .top-wrapper p{
     padding-top: 7%;
+    font-family: font-deskripsi;
+    font-size: 40pt;
+    margin-bottom: 0px;
 }
 
 
 .about-me{
     position: absolute;
+}
+
+.deskripsi{
+    margin-top: 0px;
+    font-family: font-deskripsi;
+    font-size: 35px;
+    font-weight: normal;
 }
 .about-me img{
     width: 300px;
@@ -167,7 +185,7 @@ h1:hover{
     opacity: 0.8;
     width: 280px;
     height: 300px;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 15%;
     transition: 0.5s;
 }
