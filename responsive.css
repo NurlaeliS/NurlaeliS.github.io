@@ -34,8 +34,14 @@
     .about-me h3{
         font-size:14px;
     }
-    .about-me p{
-        font-size:12px;
+
+    .top-wrapper p{
+        font-family: font-deskripsi;
+        font-size: 20pt;
+    }
+    
+    .deskripsi{
+        font-size: 15pt;
     }
     .terbang-1{
         float: right;
@@ -202,9 +208,14 @@
     .top-wrapper:hover , .biografi:hover{
         box-shadow: 0 0 0;
     }
-    .about-me p{
-    padding:2px;
-    font-size: 15px;
+    .top-wrapper p{
+        font-family: font-deskripsi;
+        font-size: 20pt;
+    }
+    
+    .deskripsi{
+        font-size: 15pt;
+        text-align: justify;
     }
     .about-me img, .biografi-icon img {
         width: 150px;
@@ -214,10 +225,7 @@
         font-size:9px;
 
     }
-    .top-wrapper p{
-        padding-top: 40px;
-        font-size: 10px;
-    }
+
 
     i{
         font-size: 9px;

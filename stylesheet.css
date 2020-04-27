@@ -114,16 +114,17 @@ h1:hover{
     cursor: pointer;
 }
 
+
+
+.about-me{
+    position: absolute;
+}
+
 .top-wrapper p{
     padding-top: 7%;
     font-family: font-deskripsi;
     font-size: 40pt;
     margin-bottom: 0px;
-}
-
-
-.about-me{
-    position: absolute;
 }
 
 .deskripsi{
