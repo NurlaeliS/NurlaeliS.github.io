@@ -99,7 +99,7 @@ h1:hover{
 }
 
 .top-wrapper{           /*----------------- kiri------------------*/
-    margin : 6% 3%;
+    margin : 7% 3%;
     float: left;
     width: 70%;
     padding: 20px 30px;
@@ -123,14 +123,14 @@ h1:hover{
 .top-wrapper p{
     padding-top: 7%;
     font-family: font-deskripsi;
-    font-size: 13pt;
+    font-size: 15pt;
     margin-bottom: 0px;
 }
 
 .deskripsi{
     margin-top: 0px;
     font-family: font-deskripsi;
-    font-size: 13pt;
+    font-size: 15pt;
     font-weight: normal;
 }
 .about-me img{
