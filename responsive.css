@@ -3,6 +3,9 @@
     .main{
         padding:0 2px;
     }
+    .main h1{
+        margin: 10%;
+    }
     .main img{
       height: 200px;
       width: 240px;
@@ -20,48 +23,25 @@
     }
     .terbang-1{
         float: right;
-        margin: 30px 25px;
     }
     .gambar-satu{
-        width: 140px;
-        height: 150px;
-        margin: 70px 70px;
-    }
-    .terbang-1{
-        float: left;
+        width: 40%;
+        height: 30%;
+        position: relative;
+        bottom: 400px;
+        left: 40%;
+
     }
     .gambar-dua{
-        width: 140px;
-        height: 150px;
-        margin: 40px 70px;
+        width: 20%;
+        height: 30%;
+        position: relative;
+        bottom: 250px;
+        right: 30px;
     }
-    .pendidikan{
-        height: 700px;
-    }
-    .lesson {
-        margin-left:3px;
-        padding-bottom: 180px;
-        height: 150px;
-        width: 150px;
-      }
-    .lesson-icon p {
-        padding: 10px;
-        font-size: 12px;
-    }
-    .lesson img{
-        height: 100px;
-    }
-    .img-sd{
-        width: 100px; 
-    }
-    .lesson-icon h4{
-        font-size: 12px;
-    }
-    .formal{
-        margin: 0 auto;
-    }
-    .informal{
-        margin: 0 auto;
+    .biografi{
+        position: relative;
+        bottom: 300px;
     }
     .biografi img{
         width: 200px;
@@ -70,37 +50,89 @@
     .biografi-icon h3{
         font-size:14px;
     }
+
+    .lesson {
+        display: inline-block;
+        margin: 5px 5%;
+        padding-bottom: 180px;
+        height: 150px;
+        width: 25%;
+      }
+    .lesson-icon p {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .lesson img{
+        height: 70px;
+    }
+    .img-sd{
+        width: 100px; 
+    }
+    .lesson-icon h4{
+        font-size: 10px;
+    }
+    
     table{
         font-size:12px;
     }
+
+    .pendidikan{
+        position:relative;
+        bottom: 300px;
+        height:100%;
+        padding: 5% 5%;
+    }
+
+    .pendidikan-icon img{
+       width: 300px;
+       height: 45px; 
+    }
+
+    .about-me h3, .biografi-icon h3, .pendidikan h3{
+        font-size:13px;
+
+    }
+
+    .formal h3 , .informal h3{
+        font-size: 12px;
+        padding: 5px;
+    }
+
     /*------------------IN-------Formal------------------*/
+    .sertifikat-konten{
+        display: flex;
+        overflow: auto;
+        overflow-y: hidden;
+    }
     .sertifikat {
-    height: 150px;
-    width: 150px;
-    padding-right: 0 auto;
-    margin-right: 20px;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin:0 8%;
     }
     
     .sertifikat-icon p {
     font-weight: normal;
-    font-size: 9px;
+    font-size: 12px;
     padding-top: 2px;
     }
-    .img-sert{
-    height: 80px;
-    transition: transform 0.5s
+    .img-landscape{
+        height: 150px;
     }
-    .img-sert:hover{
-    transform: scale(2.2);
-    z-index: 1;
+    .img-potrait{
+        height: 200px;
+        transition: transform 0.5s; 
+    }
+    .img-potrait:hover , .img-landscape:hover{
+        transform: scale(1.1);
     }
 
     .text-sert{
-    font-size: 10px;;
+    font-size: 11px;;
     }
     .keterangan{
     color: white;
-    font-size: 9px;
+    font-size: 10px;
     padding-bottom: 10px;
     margin-top: 2px;
     }
