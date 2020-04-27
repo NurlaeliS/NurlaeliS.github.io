@@ -1,5 +1,12 @@
 /*Media untuk tablet*/
 @media all and (max-width: 1000px) {
+    header{
+        padding: 2% 20px;
+    }
+    .logo{
+        height: 30px;
+    }
+
     .main{
         padding:0 2px;
     }
@@ -7,10 +14,19 @@
         margin: 10%;
     }
     .main img{
-      height: 200px;
-      width: 240px;
-      margin-top:130px;
+      height: 120px;
+      width: 120px;
+      top: 220px;
+      left: 60px;
     }
+    .menu a{
+       position: relative;
+       left: 200px;'
+    }
+    .top-wrapper , .biografi {
+        margin-top: 70px;
+    }
+
     .about-me img{
         width: 200px;
         height: 40px;
@@ -41,7 +57,7 @@
     }
     .biografi{
         position: relative;
-        bottom: 300px;
+        bottom: 350px;
     }
     .biografi img{
         width: 200px;
@@ -78,7 +94,7 @@
 
     .pendidikan{
         position:relative;
-        bottom: 300px;
+        bottom: 340px;
         height:100%;
         padding: 5% 5%;
     }
@@ -147,8 +163,12 @@
 /*---------------------Media untuk Smarthphone*-------------------*/
 @media all and (max-width: 670px) {
     header{
-        padding: 1% 20px;
+        padding: 2% 20px;
     }
+    .logo{
+        height: 15px;
+    }
+
     .main{
         padding:0 2px;
         height: 100%;
@@ -158,14 +178,15 @@
         margin: 15% 0%
     }
     .main img{
-      height: 110px;
-      width: 125px;
-      margin-top: 30%;
-      margin-left: 5%;
+        height:90px;
+        width: 90px;
+        position: relative;
+        top: 150px;
+        left: 30px;
     }
     .menu{
         position: relative;
-        top: 10px;
+        right: 100px;
     }
     .menu a{
         padding: 6px;
@@ -214,7 +235,7 @@
         height: 80px;
         width: 80px;
         position: relative;
-        bottom: 80px;
+        bottom: 140px;
         left: 2%;
         transition: 0.5s;
     }
@@ -228,7 +249,7 @@
         box-shadow: 0 0;
         position:relative;
         left: 10%;
-        top: 10px;
+        bottom: 50px;
     }
     table{
         font-size: 9px;
@@ -240,7 +261,7 @@
     /*----------------Pendidikan---------------------*/
     .pendidikan{
         position: relative;
-        bottom: 50px;
+        bottom: 140px;
         height: 0px;
         box-shadow: 0 0;
     }
