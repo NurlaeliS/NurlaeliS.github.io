@@ -213,13 +213,13 @@ h1:hover{
     float: right;
     width: 90%;
     height: 100%;
-    margin: 5%  5%;
-    
+    margin: 3%;
+    box-shadow: 0 0 20px black;
+    padding: 20px 30px;
 }
 
 .contoh-karya{
     margin-top: 70px;
-    
 }
 .contoh{
     display: inline-block;
