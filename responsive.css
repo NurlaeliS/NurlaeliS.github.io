@@ -216,7 +216,7 @@
     }
     
     .deskripsi{
-        font-size: 9pt;
+        font-size: 6pt;
         text-align: justify;
     }
     .about-me img, .biografi-icon img {
@@ -227,7 +227,6 @@
         font-size:9px;
 
     }
-
 
     .terbang-1{
         float:right;
