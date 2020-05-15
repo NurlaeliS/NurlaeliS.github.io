@@ -29,7 +29,7 @@ header{
   }
   @font-face {
     font-family: font-deskripsi;
-    src: url(font/Michella-Garden.otf);
+    src: url(font/deskripsi.otf);
   }
   @font-face {
     font-family: font-p;
@@ -114,8 +114,6 @@ h1:hover{
     cursor: pointer;
 }
 
-
-
 .about-me{
     position: absolute;
 }
@@ -123,15 +121,13 @@ h1:hover{
 .top-wrapper p{
     padding-top: 7%;
     font-family: font-deskripsi;
-    font-size: 15pt;
+    font-size: 20pt;
     margin-bottom: 0px;
 }
 
 .deskripsi{
     margin-top: 0px;
-    font-family: font-deskripsi;
-    font-size: 15pt;
-    font-weight: normal;
+    font-size: 12pt;
 }
 .about-me img{
     width: 300px;
