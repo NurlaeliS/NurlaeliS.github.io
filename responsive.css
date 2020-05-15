@@ -373,6 +373,7 @@
     }
 
     footer{
+        width: 100%;
         margin-top: 170%;
         padding:0 15%;
         font-size: 8pt;
