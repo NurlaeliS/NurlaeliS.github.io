@@ -98,6 +98,28 @@
         font-size:12px;
     }
 
+    /*----------KARYA-----------*/
+    .wrapper-karya{  
+        position: relative;
+        bottom: 350px;
+        margin: 5% 5%;
+    }
+    .contoh-karya{
+        display: flex;
+        overflow: auto;
+        overflow-y: hidden;
+        margin-top: 60px;
+    }
+    .contoh{
+        margin:0 10%;
+        width: 100%;
+        font-size: 8px;
+    }
+    .contoh img{
+        height: 50px;
+        width: 35px;
+    }
+/*----------pendidikan-----------*/
     .pendidikan{
         position:relative;
         bottom: 350px;
@@ -160,6 +182,21 @@
     }
     .img-sd{
         width: 98px;
+    }
+
+    footer{
+        position: relative;
+        bottom: 350px ;
+    }
+    .menu-social a{
+        font-size: 13px;
+        border: none;
+        margin: 0;
+    }
+    marquee{
+        font-size: 10px;
+        position: relative;
+        bottom: 350px;
     }
 
 }
